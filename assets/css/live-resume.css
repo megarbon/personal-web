@@ -160,7 +160,9 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+  object-fit: cover;
+}
 
 svg {
   overflow: hidden;
