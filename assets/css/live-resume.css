@@ -160,9 +160,9 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none;
-  object-fit: cover;
+  border-style: none; 
 }
+  
 
 svg {
   overflow: hidden;
@@ -7423,7 +7423,9 @@ aside .profile-img-wrapper {
   aside .profile-img-wrapper img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; }
+    border-radius: 50%; 
+  object-fit: cover;
+  }
 
 aside .profile-name {
   font-size: 18px;
